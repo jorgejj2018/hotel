@@ -1,0 +1,25 @@
+{
+  "name": "fullstart",
+  "version": "1.0.0",
+  "description": "nuestro primer proyecto nodejs",
+  "main": "index.html",
+  "scripts": {
+    "dev":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://JorgeQ2018@bitbucket.org/JorgeQ2018/fullstart.git"
+  },
+  "author": "jorgeQ",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/JorgeQ2018/fullstart#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
