@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- meta-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootsatrap-->
 	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Fontawesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 	<title>Hoteles</title>
 </head>
 <body>
 
-<div class="jumbotron">
-  <h1 class="display-3 text-info">Hotelero</h1>
-  <p class="font-italic ">Ya son una decadas en esta Area</p>
-  <p class="font-italic">El sitio preferido para reservar tus hoteles</p>
-  <p class="lead">
-    <a class="btn btn-dark btn-lg mx-auto" href="#" role="button">Iniciar Seccion</a>
-  </p>
-</div>
-
-<div class="contenedor-hotel">
-
-	<div class="container">
-		<h1 class="display-4 title-ht">Santa marta</h1>
-		<p class="p-hotel">Descripcion: Unas de las mejores playas</p>
-		<p class="p-hotel">Hashtag: #Paraiso#Excelencia#Naturalez#Vacaciones</p>
-		<p class="p-hotel">Precio: $200.000 "Por Persona".</p>
-	</div>
-	<hr>
-	<div class="container">
-		<h1 class="display-4 title-ht ">Informacion</h1>
-		<ul class="list-group list-group-horizontal-lg inf-list">
-			<li class="list-group-item list-group-item-dark">15 Dias</li>
-			<li class="list-group-item">Avion</li>
-		</ul>
-		<p class="lead inf-btn">
-    		<a class="btn btn btn-info " href="#" role="button">Ver Hoteles</a>
-  		</p>
+<div class="container-master">
+	<div class="jumbotron">
+	  <h1 class="display-3 text-dark">Hotelero</h1>
+		<hr>
+	  <p class="font-italic ">Ya son una decadas en esta Area</p>
+	  <p class="font-italic">El sitio preferido para reservar tus hoteles</p>
+	  <p class="lead">
+	    <a class="btn btn-dark btn-lg btn-isn" href="#" role="button">Iniciar Seccion</a>
+	  </p>
 	</div>
 
+	<div class="contenedor-hotel">
+		<div class="container inf">
+			<h1 class="display-4 title-ht">Santa marta</h1>
+			<p class="p-hotel">Descripcion: Unas de las mejores playas</p>
+			<p class="p-hotel">Hashtag: #Paraiso#Excelencia#Naturalez#Vacaciones</p>
+			<p class="p-hotel">Precio: $200.000 "Por Persona".</p>
+		</div>
+		<hr>
+
+		<div class="container inf2">
+			<h1 class="display-4 title-ht ">Informacion</h1>
+			<ul class="list-group list-group-horizontal-lg inf-list">
+				<li class="list-group-item list-group-item-dark">15 Dias</li>
+				<li class="list-group-item">Avion</li>
+			</ul>
+			<p class="lead inf-btn">
+	    		<a class="btn btn btn-info " href="#" role="button">Ver Hoteles</a>
+	  		</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="titulo">		
+		<h1 class=" display-5 title-hft">Footer</h1>
+		</div>
+		
+		<div class="direccion">
+			<ul class="list-group-vertical-lg">
+				<li class="list-group-item">Medellin-Antioquia</li>
+				<li class="list-group-item">Colombia +57</li>
+			</ul>
+		</div>
+
+		<div class="redes">
+			<i class="fab fa-facebook fa-4x"></i>
+			<i class="fab fa-linkedin fa-4x"></i>
+			
+		</div>
+
+		<div class="map">
+			<iframe src="https://maps.google.com/maps?amp;hl=es&amp;q=medellin+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+		</div>
+	</div>
 </div>
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>

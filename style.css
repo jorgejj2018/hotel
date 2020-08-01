@@ -4,18 +4,45 @@
 }
 
 body{
-	background-color:#0001;
+background-color:#0c22;
+padding:5px;
+
 }
 h1{
 	color:#189;
 }
+.container-master{
+width:90%;
+height:100%; 
+background:#223;
+margin:auto auto;
+display:flex;
+flex-flow:column wrap;
+box-shadow:10px 10px 15px #001;
+
+}
+.jumbotron{
+	width:45%;
+	margin:auto;
+	margin-bottom:1%;
+	padding:1%;
+	box-shadow:-15px 10px 15px #000f;
+}
+.jumbotron .btn-isn{
+margin:auto 8%;
+}
+
 .contenedor-hotel{
-	background:#223;
+	background:whitesmoke;
 	display:flex;
 	flex-direction:row;
+	margin-bottom:2px;
 }
-.container{
+.contenedor-hotel .inf{
 	background-color:#001;
+}
+.contenedor-hotel .inf2{
+	background-color:#0001;
 }
 .title-ht{
 	text-align:center; 
@@ -27,8 +54,48 @@ h1{
 	font-weight:bolder;
 }
 .inf-btn{
-	margin-left:85%;
+	margin-left:75%;
 }
 .inf-list{
 	margin:auto 20%;
 }
+
+/*Footer*/
+.footer{
+	background:#001;
+	width:100%;
+	height:60vh;
+	margin:auto;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-template-rows:repeat(3,1fr);
+	grid-template-areas:"titulo titulo titulo"
+						"dir    redes   mapa"
+						"dir    redes   mapa";
+	grid-gap:2%;
+}
+.title-hft{
+	color:gray;
+	text-align:center;
+}
+.titulo{
+	grid-area:titulo;
+}
+.direccion{
+	grid-area:dir;
+	align-self:center;
+	margin:auto;
+}
+.redes{
+	grid-area:redes;
+	align-self:center;
+	margin:auto 10%;
+}
+.map{
+	width:100%;
+	grid-area:mapa;
+	align-self:center;
+	margin:auto -10%;
+		
+}
+/*Footer*/
