@@ -4,9 +4,7 @@
 }
 
 body{
-background-color:#0c22;
-padding:5px;
-
+background-color:#0011;
 }
 h1{
 	color:#189;
@@ -14,19 +12,22 @@ h1{
 .container-master{
 width:90%;
 height:100%; 
-background:#223;
+background:#0011;
 margin:auto auto;
 display:flex;
 flex-flow:column wrap;
-box-shadow:10px 10px 15px #001;
 
 }
-.jumbotron{
-	width:45%;
+.navb{
+	width:100%;
 	margin:auto;
-	margin-bottom:1%;
-	padding:1%;
-	box-shadow:-15px 10px 15px #000f;
+}
+
+/*Seccion Principal*/
+.jumbotron{
+	width:50%;
+	margin-bottom:0%;
+	background:#0011;
 }
 .jumbotron .btn-isn{
 margin:auto 8%;
@@ -42,7 +43,7 @@ margin:auto 8%;
 	background-color:#001;
 }
 .contenedor-hotel .inf2{
-	background-color:#0001;
+	background-color:#001;
 }
 .title-ht{
 	text-align:center; 
@@ -60,6 +61,77 @@ margin:auto 8%;
 	margin:auto 20%;
 }
 
+
+/*Seccion Nuevo*/
+
+/*container lorem y card*/
+.container-locard{
+	width:100%;
+	height:auto;
+	background-color:white;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	margin-bottom:2%;
+
+}
+
+/* container-Lorem--Nuevo*/
+
+.container-master-lorem{
+	width:45%;
+	height:80vh;
+}
+.container-lorem{
+	width:90%;
+	height:70vh;
+	background-color:#0001;
+	color:#223;
+	font-weight:bolder;
+	padding:10px;
+	margin-left:5%;
+	
+}
+/* container-img--Nuevo vacaciones*/
+
+.container-master-img{
+	width:45%;
+	height:50vh;
+}
+
+.img-vacaciones{
+	width:100%;
+}
+/* container-card--Nuevo*/
+.container-master-card{
+	width:100%;	
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+}
+
+.card{
+	width:35%;
+	height:45vh;
+	margin-bottom:2%;
+}
+.card-header{
+	background-image: url(img/banner-card.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.card-body{
+background-color:#001;
+}
+
+/*Seccion Nosotros*/
+.container-form{
+	background-image: url(img/banner-card.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 /*Footer*/
 .footer{
 	background:#001;
@@ -72,30 +144,27 @@ margin:auto 8%;
 	grid-template-areas:"titulo titulo titulo"
 						"dir    redes   mapa"
 						"dir    redes   mapa";
-	grid-gap:2%;
 }
 .title-hft{
-	color:gray;
+	color:whitesmoke;
 	text-align:center;
+	opacity:0.4; 
 }
 .titulo{
 	grid-area:titulo;
 }
 .direccion{
 	grid-area:dir;
-	align-self:center;
 	margin:auto;
 }
 .redes{
 	grid-area:redes;
-	align-self:center;
 	margin:auto 10%;
 }
 .map{
-	width:100%;
+	width:80%;
 	grid-area:mapa;
 	align-self:center;
 	margin:auto -10%;
-		
 }
 /*Footer*/
