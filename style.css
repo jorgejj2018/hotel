@@ -19,8 +19,13 @@ flex-flow:column wrap;
 
 }
 .navb{
-	width:100%;
-	margin:auto;
+	width:90%;
+	margin: auto auto;
+}
+
+
+.breaC{
+	margin-top:10%;
 }
 
 /*Seccion Principal*/
@@ -100,7 +105,7 @@ margin:auto 8%;
 }
 
 .img-vacaciones{
-	width:100%;
+	width:95%;
 }
 /* container-card--Nuevo*/
 .container-master-card{
@@ -128,16 +133,16 @@ background-color:#001;
 
 /*Seccion Nosotros*/
 .container-form{
-	background-image: url(img/banner-card.jpg);
+	background-image: url(img/vacaciones.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 /*Footer*/
 .footer{
-	background:#001;
-	width:100%;
-	height:60vh;
-	margin:auto;
+	height:40vh;
+	background-image: url(img/banner-card.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 	display:grid;
 	grid-template-columns:repeat(3,1fr);
 	grid-template-rows:repeat(3,1fr);
@@ -163,8 +168,8 @@ background-color:#001;
 }
 .map{
 	width:80%;
+	height:20vh;
 	grid-area:mapa;
-	align-self:center;
-	margin:auto -10%;
+	margin:1.5% 10px;
 }
 /*Footer*/
