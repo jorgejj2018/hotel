@@ -21,6 +21,9 @@ flex-flow:column wrap;
 .navb{
 	width:90%;
 	margin: auto auto;
+	background-image: url(img/banner-card.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 
@@ -117,17 +120,17 @@ margin:auto 8%;
 	justify-content: space-evenly;
 }
 
-.card{
+.card-n{
 	width:35%;
 	height:45vh;
 	margin-bottom:2%;
 }
-.card-header{
+.card-header-n{
 	background-image: url(img/banner-card.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.card-body{
+.card-body-n{
 background-color:#001;
 }
 
@@ -172,4 +175,3 @@ background-color:#001;
 	grid-area:mapa;
 	margin:1.5% 10px;
 }
-/*Footer*/
