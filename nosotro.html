@@ -40,8 +40,10 @@
 		</div>
 
 		<div class="container-form p-5">
+					<button class="btn btn-dark" data-toggle="popover" title="Info" data-content="Tu comentario nos ayuda a crecer" ><i class="fa fa-info-circle"></i></button>
 			
 			<form>
+				
 				<div class=" form-group">
 					<label for="nombre">Nombre</label>
 					<input type="text" name="nombre" placeholder="Ingresa Tu Nombre" id="nombre" class="form-control col-sm-3 bg-dark">
@@ -60,7 +62,7 @@
 				<div class=" form-group">
 					<label for="ciudad"></label>
 					<select class="form-control col-sm-3 bg-dark" id="ciudad">
-						<option selected="active">Medellin</option>
+						<option>Medellin</option>
 						<option>Bogota</option>
 						<option>Cali</option>
 						<option>Barranquilla</option>
@@ -115,5 +117,15 @@
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/popper.js/dist/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+		$(function () {
+		  $('[data-toggle="popover"]').popover()
+		})
+		$(function () {
+		  $('.example-popover').popover({
+			    container: 'body'
+			  })
+			})
+</script>
 </body>
 </html>

@@ -65,7 +65,7 @@
 				    <h5 class="text-info">Medellin</h5>
 				    <p class="card-subtitle">Inntu Hotel</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 				<div class="card card-n">
@@ -74,7 +74,7 @@
 				    <h5 class="text-info">Bogota</h5>
 				    <p class="card-subtitle">B.O.G Hotel</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 
@@ -84,7 +84,7 @@
 				    <h5 class="text-info">Cali</h5>
 				    <p class="card-subtitle">Hotel Spiwak</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 
@@ -94,7 +94,7 @@
 				    <h5 class="text-info">Cartagena</h5>
 				    <p class="card-subtitle">OZ Hotel</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 
@@ -104,7 +104,7 @@
 				    <h5 class="text-info">Santa Marta</h5>
 				    <p class="card-subtitle">Hotel Ribai</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 
@@ -114,7 +114,7 @@
 				    <h5 class="text-info">Pereira</h5>
 				    <p class="card-subtitle">Gran Hotel Pereira</p>
 				    <p class="card-text text-light"></p>
-				    <button class="btn btn-outline-info" type="submit">Reservar</button>
+				    <button class="btn btn-outline-info" type="submit"  data-toggle="modal" data-target="#reservar-modal">Reservar</button>
 				  </div>
 				</div>
 			</div>
@@ -143,6 +143,60 @@
 			</div>
 		</div>
 </div>
+
+<!--Modal reservar-->
+<div class="modal fade" id="reservar-modal" tabindex="-1" aria-labelledby="modal-label-reservar" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="font-italic" id="modal-label-reservar">Reservacion</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">		
+				<div class="container-form p-5">	
+			<form>
+				
+				<div class=" form-group">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" placeholder="Ingresa Tu Nombre" id="nombre" class="form-control col-sm-6 bg-light">
+				</div>
+
+				<div class=" form-group">
+					<label for="apellido">Apellido</label>
+					<input type="text" name="apellido" placeholder="Ingresa Tu Apellido" id="apellido" class="form-control col-sm-6 bg-light">
+				</div>
+				
+				<div class=" form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" placeholder="Ingresa Tu Email" id="email" class="form-control col-sm-6 bg-light">
+				</div>
+
+				<div class=" form-group">
+					<label for="ciudad"></label>
+					<select class="form-control col-sm-6 bg-light" id="ciudad">
+						<option>Medellin</option>
+						<option>Bogota</option>
+						<option>Cali</option>
+						<option>Barranquilla</option>
+						<option>Cartagena</option>
+						<option>Santa Marta</option>
+						<option>Cucuta</option>
+						<option>Otra</option>
+					</select>
+				</div>
+			</form>
+				
+		</div>
+      </div>
+      <div class="modal-footer">
+      	<button type="submit" class="btn btn-outline-dark">Realizar Reservacion</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal reservar-->
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="node_modules/popper.js/dist/popper.min.js"></script>
