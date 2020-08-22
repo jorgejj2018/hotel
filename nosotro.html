@@ -40,28 +40,29 @@
 		</div>
 
 		<div class="container-form p-5">
-					<button class="btn btn-dark" data-toggle="popover" title="Info" data-content="Tu comentario nos ayuda a crecer" ><i class="fa fa-info-circle"></i></button>
+
+			<button class="btn btn-dark" data-toggle="popover" data-content="Tus Comentario Nos Ayuda a Crecer"><i class="fa fa-info-circle"></i></button>
 			
-			<form>
+			<form class="float-right">
 				
 				<div class=" form-group">
 					<label for="nombre">Nombre</label>
-					<input type="text" name="nombre" placeholder="Ingresa Tu Nombre" id="nombre" class="form-control col-sm-3 bg-dark">
+					<input type="text" name="nombre" placeholder="Ingresa Tu Nombre" id="nombre" class="form-control col-sm-9 bg-dark">
 				</div>
 
 				<div class=" form-group">
 					<label for="apellido">Apellido</label>
-					<input type="text" name="apellido" placeholder="Ingresa Tu Apellido" id="apellido" class="form-control col-sm-3 bg-dark">
+					<input type="text" name="apellido" placeholder="Ingresa Tu Apellido" id="apellido" class="form-control col-sm-9 bg-dark">
 				</div>
 				
 				<div class=" form-group">
 					<label for="email">Email</label>
-					<input type="email" name="email" placeholder="Ingresa Tu Email" id="email" class="form-control col-sm-4 bg-dark">
+					<input type="email" name="email" placeholder="Ingresa Tu Email" id="email" class="form-control col-sm-9 bg-dark">
 				</div>
 
 				<div class=" form-group">
 					<label for="ciudad"></label>
-					<select class="form-control col-sm-3 bg-dark" id="ciudad">
+					<select class="form-control col-sm-9 bg-dark" id="ciudad">
 						<option>Medellin</option>
 						<option>Bogota</option>
 						<option>Cali</option>
@@ -75,7 +76,7 @@
 
 				<div class=" form-group">
 					<label for="txtarea">Comentario</label>
-					<textarea type="text" name="nombre" placeholder="Comentario..." id="txtarea" class="form-control col-sm-6 bg-dark"></textarea>
+					<textarea type="text" name="nombre" placeholder="Comentario..." id="txtarea" class="form-control col-sm-9 bg-dark"></textarea>
 				</div>
 
 				<div class="form-check">
@@ -115,17 +116,8 @@
 </div>
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="node_modules/popper.js/dist/popper.min.js"></script>
+	<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script>
-		$(function () {
-		  $('[data-toggle="popover"]').popover()
-		})
-		$(function () {
-		  $('.example-popover').popover({
-			    container: 'body'
-			  })
-			})
-</script>
+	<script src="js/main.js"></script>
 </body>
 </html>
