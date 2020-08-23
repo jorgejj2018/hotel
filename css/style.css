@@ -21,7 +21,7 @@ flex-flow:column wrap;
 .navb{
 	width:90%;
 	margin: auto auto;
-	background-image: url(img/banner-card.jpg);
+	background-image: url(../img/banner-card.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -140,7 +140,7 @@ margin:auto 8%;
 	margin-bottom:2%;
 }
 .card-header-n{
-	background-image: url(img/banner-card.jpg);
+	background-image: url(../img/banner-card.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -150,14 +150,14 @@ background-color:#001;
 
 /*Seccion Nosotros*/
 .container-form{
-	background-image: url(img/vacaciones.jpg);
+	background-image: url(../img/vacaciones.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
 /*Footer*/
 .footer{
 	height:40vh;
-	background-image: url(img/banner-card.jpg);
+	background-image: url(../img/banner-card.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	display:grid;
