@@ -33,3 +33,7 @@ $('#reservar-modal').on('hidden.bs.modal', function (e) {
 	$('#btn-reservar').addClass('btn-outline-info')
 	$('#btn-reservar').prop('disabled', false)
 })
+
+
+/*imagemin*/
+
